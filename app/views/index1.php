@@ -33,8 +33,8 @@ if (isset($_GET['act']) && $_GET['act'] != '') {
         case 'addkm':
             include 'Admin/QTKM/add.php';
             break;
-            
-            
+        case 'test':
+            break;
     }
 } else {
     include 'Admin/home.php';
